@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body  style=background:#00FFDD;>
+    <h1>My Portfolio</h1>
+   <div>
+       <img src="dp.JPG" height="300px" width="300px" alt="my picture">
+       <span>
+        <p>I am
+            <strong>
+                 Konadu Lord 
+            </strong> Information Technology major student,<br> Am a positive person who likes to excel at what I do,and <br>I think the best way to do that is constantly challenge myself to learn as much as  I can and to perform to the of my abilities every</p>
+       </span>
+   </div>
+   <div>
+        <table style="width:100%; border:1px solid black;">
+            <tr style="border:1px solid black;">
+                <th style="border:1px solid black;">Basic School</th>
+                <th style="border:1px solid black;">Senoir High</th>
+                <th style="border:1px solid black;">College</th>
+            </tr>
+            <tr style="border:1px solid black;">
+                <td style="border:1px solid black;">Vicgrace School</td>
+                <td style="border:1px solid black;">Presbyterian Senoir High School,Aburi</td>
+                <td style="border:1px solid black;">University of Ghana</td> 
+            </tr>
+            <tr rowspan="3" style="border:1px solid black;">
+            <th colspan="3" style="border:1px solid black;"> Course</th> 
+            </tr>
+                <td style="border:1px solid black;"></td>
+                <td style="border:1px solid black;">General Arts</td>
+                <td style="border:1px solid black;">Information Technology</td>
+            </tr>
+        </table>
+   </div>
+   <div>
+       <form action="#">
+           <fieldset>
+                <legend>
+                    <strong>Description: </strong>
+                    </legend>
+                <label for="firstName">Enter Your First Name:</label><br>
+                <input type="text" name="firstName"><br>
+                <label for="lastName">Enter Your Last Name:</label><br>
+                <input type="text" name="lastName"><br>
+                <label for="age">Enter Your Age:</label><br>
+                <input type="text" name="age"><br>
+                <label for="phoneNumber"> Enter your phone number:</label><br>
+                <input type="text" name="phoneNumber"><br>
+                <fieldset>
+                    <legend>
+                        <strong>Select Your Gender</strong>
+                        </legend>
+                    <input type="radio"  name="gender" value="male">
+                    <label for="Male">MALE</label><br>
+                    <input type="radio"  name="gender" value="female">
+                    <label for="Female">FEMALE</label><br>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        <strong>Identification Information</strong>
+                    </legend>
+                    <input type="radio"  name="idType" value="student">
+                    <label for="Studentid">Student ID</label><br>
+                    <input type="radio"  name="idType" value="national">
+                    <label for="nationalid">National ID</label><br>
+                    <input type="radio"  name="idType" value="NHIS">
+                    <label for="NHISid">NHIS ID</label><br>
+                    <label for="idNumber"> Enter your ID Number:</label><br>
+                    <input type="text" name="IdNumber"><br>
+                </fieldset>
+                <legend>Optional Info</legend>
+                <textarea name="add" style="width:200px; height:150px;"></textarea><br>
+                <label for="submit">
+                    Click to Submit:
+                </label><br>
+                <button>Submit Form</button>
+           </fieldset>
+       </form>
+   </div>  
+</body>
+</html>
